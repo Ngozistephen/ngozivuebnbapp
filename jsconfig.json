@@ -1,0 +1,14 @@
+{
+    "include": [
+        "./resources/assets/**/*"
+    ],
+
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@assets/*": [
+                "resources/assets/*"
+            ]
+        }
+    }
+}
