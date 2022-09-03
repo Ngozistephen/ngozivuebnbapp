@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Vuebnb (Learning)</title>
   <link rel="stylesheet" href="node_modules/open-sans-all/css/open-sans.css">
-  <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
-  <link rel="stylesheet" href="{{asset('css/vue-style.css')}}" type="text/css">
+  <link rel="stylesheet" href="{{asset('css/style.css', true)}}" type="text/css">
+  <link rel="stylesheet" href="{{asset('css/vue-style.css', true)}}" type="text/css">
   
   <script type="text/javascript">
     window.vuebnb_server_data = "{!!addslashes(json_encode($data)) !!}" 
@@ -18,7 +18,7 @@
 <body>   
 <div id="app"></div> 
 
-<script type="text/javascript" src="{{ asset('js/app.js')}}"></script>
+<script type="text/javascript" src="{{ asset('js/app.js', true)}}"></script>
 </body>
 </html>
 
