@@ -1,10 +1,5 @@
-
 require('dotenv').config(); 
-let mix = require('laravel-mix');
-
-require(__dirname + '/node_modules/laravel-mix/src/index');
-mix.paths.setRootPath( path.resolve(__dirname) );
-require(mix.paths.mix());
+let mix = require('laravel-mix'); 
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
